@@ -11,10 +11,11 @@ body{
     background-size: cover;
 }
 
+/* nav */
 .navbar{
     width: 100%;
     height: 60px;
-    box-shadow: 2px 2px 12px rgb(0, 0, 0.2);
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     padding-left: 9%;
@@ -43,6 +44,7 @@ body{
     color : #dfe6e9;   
 }
 
+/* hero */
 .text-hero{
     position: absolute;
     top: 130px;
@@ -65,7 +67,7 @@ body{
 
 .text-hero p:nth-child(3){
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 100;
     line-height: normal;
 }
 
@@ -100,4 +102,55 @@ body{
     top: 100px;
     left: 50%;
     height: 450px;
+}
+
+/* about */
+.about{
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-right: 200px;
+    box-sizing: border-box;
+
+}
+
+.about img{
+    height: 250px;
+    margin: 30px;
+}
+
+.text-about p:first-child{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.text-about p:nth-child(2),
+.text-about p:nth-child(3){
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn-about-here{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.btn-about-Download{
+    background-color: #2f3640;
+    color: white;
+    border: none;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
 }
