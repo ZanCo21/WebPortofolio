@@ -4,6 +4,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    width: 100%;
+    height: 550px;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+}
+
 .navbar{
     width: 100%;
     height: 60px;
@@ -11,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 9%;
+    background-color: white;
 }
 
 .navbar p{
@@ -33,4 +41,63 @@ body{
 
 .nav-link a:hover{
     color : #dfe6e9;   
+}
+
+.text-hero{
+    position: absolute;
+    top: 130px;
+    left: 9%;
+    line-height: 0;
+}
+
+.text-hero p:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.text-hero p:nth-child(2){
+    font-family: 'lobster';
+    font-size: 50px;
+    margin: 0;
+
+}
+
+.text-hero p:nth-child(3){
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.btn-here{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+/* .btn-here:hover{
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+} */
+
+.btn-download{
+    background-color: #2f3640;
+    border: none;
+    font-size: 11px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.model{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    height: 450px;
 }
