@@ -241,3 +241,40 @@ body{
     border: none;
     font-size: 12px;
 }
+
+/* contact */
+.contact{
+    width: 100%;
+    height: 200px;
+    background-color: #2f3640;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.contact p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    line-height: 0;
+    margin-bottom: 15px;
+}
+
+.garis{
+    width: 350px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.contact button{
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 11px;
+    background-color: white;
+    border: none;
+    font-size: 12px;
+}
