@@ -154,3 +154,90 @@ body{
     width: 100px;
     height: 30px;
 }
+
+/* skill */
+.text-skill{
+    margin-left: 12%;
+    margin-top: 50px;
+    width: 450px;
+    line-height: 0;
+}
+
+.text-skill p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.text-skill p:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-skill p:nth-child(3){
+    font-size: 14px;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.card-skill{
+    display: flex;
+    width: 78%;
+    margin: 50px auto;
+    justify-content: space-evenly;
+}
+
+.skill-1,.skill-2,.skill-3 {
+    width: 250px;
+    height: 300px;
+    background-color: #2f3640;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+
+.skill-1 div,.skill-2 div,.skill-3 div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #2f3640;
+}
+
+.skill-1 p:first-of-type, 
+.skill-2 p:first-of-type,
+.skill-3 p:first-of-type{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* margin-top: 20px;
+    margin-bottom: 0; */
+}
+
+.skill-1 p:nth-last-child(2), 
+.skill-2 p:nth-last-child(2),
+.skill-3 p:nth-last-child(2){
+    color: white;
+    font-size: 12px;
+
+}
+
+.skill-1 button,
+.skill-2 button,
+.skill-3 button{
+    width: 90px;
+    height: 28px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-size: 12px;
+}
